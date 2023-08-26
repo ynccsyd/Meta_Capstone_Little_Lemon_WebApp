@@ -4,19 +4,19 @@ import {
 } from 'react-router-dom';
 
 import Layout from './components/Layout/Layout';
-// import Home from './components/pages/Home';
-// import Bookings from './components/pages/Bookings';
-// import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
+import Home from './components/Pages/Home.js';
+import Bookings from './components/pages/Bookings';
+import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
 // import NotFound from './components/pages/NotFound';
 // import UnderConstruction from './components/pages/UnderConstruction';
-// import pages from './utils/pages';
+import pages from './utils/pages';
 
 const App = () => {
   return (
     <>
       <Layout>
         <Routes>
-          {/* <Route path={pages.get('home').path} element={<Home />} />
+          <Route path={pages.get('home').path} element={<Home />} />
           <Route 
             path={pages.get('about').path} 
             element={<UnderConstruction />} 
@@ -38,7 +38,7 @@ const App = () => {
             path={pages.get('login').path} 
             element={<UnderConstruction />} 
           />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </>
