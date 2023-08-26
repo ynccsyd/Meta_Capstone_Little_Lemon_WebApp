@@ -3,7 +3,7 @@ import {
   Routes
 } from 'react-router-dom';
 import pages from './utils/pages';
-import Layout from './components/layout/Layout';
+import Layout from './components/Layout/Layout';
 import Home from './components/pages/Home';
 import Bookings from './components/pages/Bookings';
 import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
