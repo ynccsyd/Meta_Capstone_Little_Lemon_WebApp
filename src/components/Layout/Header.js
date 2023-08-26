@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logoImage from './assets/logo.png';
-import './Header.css';
+// npm i @fortawesome/free-solid-svg-icons
+import logoImage from '../../assets/Logo.png';
+import './Style.css';
 import pages from '../utils/pages';
 
 const navLinks = Array.from(pages.values()).filter(page => page.anchorable);

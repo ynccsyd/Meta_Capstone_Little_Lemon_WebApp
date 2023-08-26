@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import "./Style.css"
 export default function Footer() {
   return (
     <footer>
       <menu>
         <li className="img-footer">
           <img
-            src={require("../assets/footer-logo.png")}
+            src={require("../../assets/footer-logo.png")}
             alt="Little Lemon logo"
           ></img>
         </li>
@@ -15,7 +16,7 @@ export default function Footer() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <a
-              href={require("../assets/menu.webp")}
+              href={require("../../assets/menu.webp")}
               target="_blank"
               rel="noreferrer"
             >
