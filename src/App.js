@@ -1,15 +1,11 @@
-import {
-  Route, 
-  Routes
-} from 'react-router-dom';
-
+import {Route, Routes} from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './components/Pages/Home';
 import Bookings from './components/Pages/Bookings';
 import ConfirmedBooking from './components/Pages/Bookings/ConfirmedBooking';
 import NotFound from './components/Pages/NotFound';
 import UnderConstruction from './components/Pages/UnderConstruction';
-import pages from './utils/pages';
+import pages from './components/utils/pages';
 
 const App = () => {
   return (
