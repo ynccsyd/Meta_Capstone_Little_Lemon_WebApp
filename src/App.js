@@ -1,11 +1,14 @@
-import {Route, Routes} from 'react-router-dom';
-import Layout from './components/Layout/Layout';
-import Home from './components/Pages/Home';
-import Bookings from './components/Pages/Bookings';
-import ConfirmedBooking from './components/Pages/Bookings/ConfirmedBooking';
-import NotFound from './components/Pages/NotFound';
-import UnderConstruction from './components/Pages/UnderConstruction';
-import pages from './components/utils/pages';
+import {
+  Route, 
+  Routes
+} from 'react-router-dom';
+import pages from './utils/pages';
+import Layout from './components/layout/Layout';
+import Home from './components/pages/Home';
+import Bookings from './components/pages/Bookings';
+import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
+import NotFound from './components/pages/NotFound';
+import UnderConstruction from './components/pages/UnderConstruction';
 
 const App = () => {
   return (
